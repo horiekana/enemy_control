@@ -22,13 +22,7 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables:
-    - useVariable: 1
-      name: Player
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
+    gameObjectVariables: []
     objectVariables: []
     materialVariables: []
     textureVariables: []
