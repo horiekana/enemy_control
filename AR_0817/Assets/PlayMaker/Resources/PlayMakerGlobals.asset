@@ -36,3 +36,5 @@ MonoBehaviour:
   - backtostart2
   - movetoplayer
   - ramdommove
+  - Player_Attack
+  - ChangeColorNomal
