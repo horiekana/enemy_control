@@ -1,5 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - HutongGames.PlayMakerEditor.EditorStartupPrefs
+    - HutongGames.PlayMakerEditor.FsmActionWindow
+    - HutongGames.PlayMakerEditor.FsmEditorWindow
+    PlayMaker.dll:
+    - PlayMakerFSM
+    - PlayMakerGUI
+    - PlayMakerLateUpdate
+    - PlayMakerPrefs
+    - PlayMakerTriggerExit
+    - PlayMakerTriggerStay
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -7,7 +18,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/fa351ec3-f12f-4447-bacc-5784a4cc6bfb.unity:
+    Assets/Scenes/c8eae894-f866-48d2-84db-a026d0fb88e3.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -26,7 +37,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -34,14 +45,58 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11352}
+    - Class: 114
+      Script: {instanceID: 13068}
+    - Class: 114
+      Script: {instanceID: 13074}
+    - Class: 114
+      Script: {instanceID: 13090}
+    - Class: 114
+      Script: {instanceID: 13094}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-  scriptHashData: []
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a17f3cdaffefa864a0d800602bcf922d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 4002df09187c2b317d58e82d9e4795b2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
   platform: 9
   scenePathNames:
-  - Assets/Scenes/fa351ec3-f12f-4447-bacc-5784a4cc6bfb.unity
-  playerPath: "/Users/kanahorie/Documents/AR\u30CF\u30C3\u30AB\u30BD\u30F3/AR_0817/_Output/STYLY_ASSET/iOS/fa351ec3-f12f-4447-bacc-5784a4cc6bfb"
+  - Assets/Scenes/c8eae894-f866-48d2-84db-a026d0fb88e3.unity
+  playerPath: /Users/kanahorie/Documents/GitHub/enemy_control/AR_0817/_Output/STYLY_ASSET/iOS/c8eae894-f866-48d2-84db-a026d0fb88e3
