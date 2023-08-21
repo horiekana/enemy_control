@@ -41,3 +41,7 @@ MonoBehaviour:
   - hit_energy2
   - delete_enemy2
   - enterenergy2
+  - AttackAction
+  - CountSwitchOff
+  - Enemy_attack
+  - Enemy_Attack

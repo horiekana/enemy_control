@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - PlayMakerGUI
     - PlayMakerLateUpdate
     - PlayMakerPrefs
+    - PlayMakerTriggerEnter
     - PlayMakerTriggerExit
     - PlayMakerTriggerStay
     Unity.Rider.Editor.dll:
@@ -18,7 +19,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/c8eae894-f866-48d2-84db-a026d0fb88e3.unity:
+    Assets/Scenes/a8f884fb-0618-46a0-9545-6d8a6604cbc3.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -51,6 +52,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13068}
     - Class: 114
       Script: {instanceID: 13074}
+    - Class: 114
+      Script: {instanceID: 13086}
     - Class: 114
       Script: {instanceID: 13090}
     - Class: 114
@@ -89,6 +92,12 @@ ScriptsOnlyBuild:
       Hash: 9b8a30b0d2b39397e408f051bc054940
     assemblyName: PlayMaker.dll
     namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
     className: PlayMakerTriggerExit
   - hash:
       serializedVersion: 2
@@ -98,5 +107,5 @@ ScriptsOnlyBuild:
     className: PlayMakerTriggerStay
   platform: 19
   scenePathNames:
-  - Assets/Scenes/c8eae894-f866-48d2-84db-a026d0fb88e3.unity
-  playerPath: /Users/kanahorie/Documents/GitHub/enemy_control/AR_0817/_Output/STYLY_ASSET/Windows/c8eae894-f866-48d2-84db-a026d0fb88e3
+  - Assets/Scenes/a8f884fb-0618-46a0-9545-6d8a6604cbc3.unity
+  playerPath: /Users/kanahorie/Documents/GitHub/enemy_control/AR_0817/_Output/STYLY_ASSET/Windows/a8f884fb-0618-46a0-9545-6d8a6604cbc3
