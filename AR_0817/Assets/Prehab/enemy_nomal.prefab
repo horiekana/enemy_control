@@ -1434,7 +1434,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000000
+        actionIsOpen: 010101
         actionStartIndex: 000000000300000006000000
         actionHashCodes: 2ee017042ee01704dfd72a04
         unityObjectParams: []
@@ -2434,14 +2434,16 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetEventIntData
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.DebugLog
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000100000005000000
-        actionHashCodes: dcbe48045e69bb0427fbe103
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000010000000500000008000000
+        actionHashCodes: dcbe48045e69bb0427fbe1039c59e501
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -2483,7 +2485,13 @@ MonoBehaviour:
           fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "enemy_nomal\u304B\u3089\u653B\u6483\u3092\u53D7\u3051\u305F"
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -2522,12 +2530,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Enemy_Attack
-        byteData: 0000
+        byteData: 00000000000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001f000000170000000f00000001000000110000001100000001000000
+        paramDataType: 100000001f000000170000000f00000001000000110000001100000001000000070000001200000001000000
         paramName:
         - intData
         - eventTarget
@@ -2537,8 +2545,11 @@ MonoBehaviour:
         - boolVariable
         - boolValue
         - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000000000000100000001000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000001000000
+        - logLevel
+        - text
+        - sendToUnityLog
+        paramDataPos: 0000000000000000000000000000000000000000000000000100000001000000020000000000000006000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000001000000040000000000000001000000
     - name: "\u5F85\u6A5F\u6642\u9593\u306E\u521D\u671F\u5316"
       description: 
       colorIndex: 0
