@@ -34,3 +34,5 @@ MonoBehaviour:
   events:
   - ramdom
   - backtostart2
+  - movetoplayer
+  - ramdommove
