@@ -38,3 +38,6 @@ MonoBehaviour:
   - ramdommove
   - Player_Attack
   - ChangeColorNomal
+  - hit_energy2
+  - delete_enemy2
+  - enterenergy2
