@@ -490,7 +490,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: player
+              name: hitobject
               tooltip: 
               showInInspector: 0
               networkSync: 0

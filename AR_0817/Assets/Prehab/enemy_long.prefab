@@ -278,9 +278,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: move player
-    startState: "yangle\u53D6\u5F97"
+    startState: "\u8996\u70B9\u6C7A\u5B9A"
     states:
-    - name: "yangle\u53D6\u5F97"
+    - name: "\u8996\u70B9\u6C7A\u5B9A"
       description: 
       colorIndex: 0
       position:
@@ -794,7 +794,7 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: yangle
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
