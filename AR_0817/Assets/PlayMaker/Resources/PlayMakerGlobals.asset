@@ -47,3 +47,4 @@ MonoBehaviour:
   - delete_enemy3
   - enterenergy3
   - AttackAction
+  - enemy_stage2
