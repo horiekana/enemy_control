@@ -9125,7 +9125,7 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.IntAdd
-        - HutongGames.PlayMaker.Actions.ArrayClear
+        - HutongGames.PlayMaker.Actions.ArraySet
         - HutongGames.PlayMaker.Actions.DestroyObject
         - HutongGames.PlayMaker.Actions.IntCompare
         customNames:
@@ -9135,8 +9135,8 @@ MonoBehaviour:
         - 
         actionEnabled: 01010101
         actionIsOpen: 01010101
-        actionStartIndex: 00000000030000000500000008000000
-        actionHashCodes: 603dd905978a9b039ff80c0209faa102
+        actionStartIndex: 0000000003000000080000000b000000
+        actionHashCodes: 603dd9056ba593019ff80c0209faa102
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -9164,7 +9164,7 @@ MonoBehaviour:
           boolValue: 0
           stringValue: 
           vector4Value: {x: 0, y: 0, z: 0, w: 0}
-          objectReference: {fileID: 1286257147}
+          objectReference: {fileID: 0}
           arrayValue:
             useVariable: 0
             name: 
@@ -9214,6 +9214,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 1
           name: item_count
           tooltip: 
@@ -9239,21 +9245,25 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
+        - 
         - boss
         - 
         - 
-        byteData: 0000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000010000000010000002900000027000000130000000f00000011000000100000001000000017000000170000001700000001000000
+        paramDataType: 1000000010000000010000002900000010000000270000000100000017000000130000000f00000011000000100000001000000017000000170000001700000001000000
         paramName:
         - intVariable
         - add
         - everyFrame
         - array
-        - resetValue
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
         - gameObject
         - delay
         - detachChildren
@@ -9263,8 +9273,8 @@ MonoBehaviour:
         - lessThan
         - greaterThan
         - everyFrame
-        paramDataPos: 0000000001000000000000000000000000000000000000000000000000000000020000000300000000000000010000000200000001000000
-        paramByteDataSize: 0000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000001000000000000000000000002000000000000000100000000000000000000000000000000000000030000000400000001000000020000000300000002000000
+        paramByteDataSize: 0000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "energy4\u3092\u7372\u5F97"
       description: 
       colorIndex: 0
@@ -10356,6 +10366,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ArrayContains
         - HutongGames.PlayMaker.Actions.ArrayContains
         - HutongGames.PlayMaker.Actions.ArrayContains
+        - HutongGames.PlayMaker.Actions.LookAt
         customNames:
         - 
         - 
@@ -10363,13 +10374,28 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 0000000003000000090000000f000000150000001b000000
-        actionHashCodes: 9c59e50175f9ba0575f9ba0575f9ba0575f9ba0575f9ba05
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 01010101010101
+        actionStartIndex: 0000000003000000090000000f000000150000001b00000021000000
+        actionHashCodes: 9c59e50175f9ba0575f9ba0575f9ba0575f9ba0575f9ba05d5799805
         unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -10635,9 +10661,39 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
@@ -10651,12 +10707,12 @@ MonoBehaviour:
         - 
         - energy5_boss
         - 
-        byteData: 0000000001
+        byteData: 000000000101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 070000001200000001000000290000002700000010000000110000001700000017000000290000002700000010000000110000001700000017000000290000002700000010000000110000001700000017000000290000002700000010000000110000001700000017000000290000002700000010000000110000001700000017000000
+        paramDataType: 07000000120000000100000029000000270000001000000011000000170000001700000029000000270000001000000011000000170000001700000029000000270000001000000011000000170000001700000029000000270000001000000011000000170000001700000029000000270000001000000011000000170000001700000014000000130000001c0000001c00000011000000110000001900000001000000
         paramName:
         - logLevel
         - text
@@ -10691,8 +10747,16 @@ MonoBehaviour:
         - isContained
         - isContainedEvent
         - isNotContainedEvent
-        paramDataPos: 000000000000000004000000000000000000000000000000000000000000000001000000010000000100000001000000010000000200000003000000020000000200000002000000020000000400000005000000030000000300000003000000030000000600000007000000040000000400000004000000040000000800000009000000
-        paramByteDataSize: 040000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        - gameObject
+        - targetObject
+        - targetPosition
+        - upVector
+        - keepVertical
+        - debug
+        - debugLineColor
+        - everyFrame
+        paramDataPos: 0000000000000000040000000000000000000000000000000000000000000000010000000100000001000000010000000100000002000000030000000200000002000000020000000200000004000000050000000300000003000000030000000300000006000000070000000400000004000000040000000400000008000000090000000000000000000000000000000100000005000000060000000000000005000000
+        paramByteDataSize: 0400000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: 1
       description: 
       colorIndex: 0
@@ -11450,7 +11514,7 @@ MonoBehaviour:
       isGlobal: 1
     - name: boss
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: energy1_boss
       isSystemEvent: 0
       isGlobal: 0
@@ -11554,7 +11618,7 @@ MonoBehaviour:
     - fsmEvent:
         name: boss
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u30DC\u30B9\u51FA\u73FE"
       linkStyle: 0
       linkConstraint: 0
