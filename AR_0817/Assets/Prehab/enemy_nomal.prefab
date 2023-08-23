@@ -347,8 +347,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5016075190191400571}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.3, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: -0, y: 0.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 2869502950883006641}
   - {fileID: 5195204302190843967}
@@ -580,7 +580,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.3
+          value: 0.1
         - useVariable: 1
           name: 
           tooltip: 
@@ -2549,7 +2549,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        value: 0.5
+        value: 0.1
       - useVariable: 1
         name: ramdomZ
         tooltip: 
@@ -2731,7 +2731,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 2
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -3623,7 +3623,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 60
+          value: 1
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []

@@ -426,8 +426,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7336282597902684407}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.3, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: -0, y: 0.1, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 540887511334759997}
   - {fileID: 7514828969761713843}
@@ -2357,16 +2357,22 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.SetIntValue
+        - HutongGames.PlayMaker.Actions.FindGameObject
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000003000000
-        actionHashCodes: 603dd905603dd905
+        actionHashCodes: 603dd905786b3902
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: player
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -2374,25 +2380,25 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: player
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
-        - useVariable: 1
-          name: enemyHP
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 60
         - useVariable: 1
           name: enemyAt
           tooltip: 
@@ -2404,7 +2410,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 2
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -2412,21 +2418,21 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000100000001000000001000000
+        paramDataType: 100000001000000001000000120000001200000013000000
         paramName:
         - intVariable
         - intValue
         - everyFrame
-        - intVariable
-        - intValue
-        - everyFrame
-        paramDataPos: 000000000100000000000000020000000300000001000000
-        paramByteDataSize: 000000000000000001000000000000000000000001000000
+        - objectName
+        - withTag
+        - store
+        paramDataPos: 000000000100000000000000000000000100000000000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000
     - name: "\u30AB\u30A6\u30F3\u30C8\u30B9\u30A4\u30C3\u30C1\u304CON\u304BOFF\u304B\u8ABF\u3079\u308B"
       description: 
       colorIndex: 0
@@ -3221,7 +3227,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 60
+          value: 1
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -4154,7 +4160,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.3
+          value: 0.1
         - useVariable: 1
           name: 
           tooltip: 

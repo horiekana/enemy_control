@@ -50,3 +50,10 @@ MonoBehaviour:
   - enemy_stage2
   - movetoplayer
   - enterenergy1
+  - enterenergy4
+  - UpDateHP_text
+  - energy_30sec
+  - enterenergy5
+  - enternotenergy
+  - enternotenergy2
+  - enemy_boss
