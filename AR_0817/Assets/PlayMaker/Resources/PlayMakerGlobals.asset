@@ -34,17 +34,19 @@ MonoBehaviour:
   events:
   - ramdom
   - backtostart2
-  - movetoplayer
   - ramdommove
   - Player_Attack
   - ChangeColorNomal
   - hit_energy2
   - delete_enemy2
   - enterenergy2
+  - AttackAction
   - CountSwitchOff
   - Enemy_attack
   - Enemy_Attack
   - delete_enemy3
   - enterenergy3
-  - AttackAction
+  - AttackAnimation
   - enemy_stage2
+  - movetoplayer
+  - enterenergy1
