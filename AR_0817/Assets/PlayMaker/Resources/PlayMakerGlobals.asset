@@ -52,9 +52,13 @@ MonoBehaviour:
   - enterenergy1
   - enterenergy4
   - UpDateHP_text
+  - PopDamage
+  - GameStart_UI
+  - POP_Punch
+  - destroy_punch
+  - Update_itemUI
   - energy_30sec
   - enterenergy5
   - enternotenergy
-  - enternotenergy2
   - enemy_boss
-  - boss
+  - delete_enemy4
