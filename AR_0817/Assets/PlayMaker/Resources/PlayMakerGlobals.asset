@@ -73,3 +73,5 @@ MonoBehaviour:
   - destroy_effect_long
   - destroy_effect_middle
   - destroy_effect_mini
+  - get_gamestateOn
+  - get_gamestateOff
