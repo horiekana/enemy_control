@@ -2,11 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
     - HutongGames.PlayMakerEditor.EditorStartupPrefs
+    - HutongGames.PlayMakerEditor.FsmActionWindow
+    - HutongGames.PlayMakerEditor.FsmEditorWindow
     PlayMaker.dll:
     - PlayMakerFSM
-    - PlayMakerFixedUpdate
     - PlayMakerGUI
-    - PlayMakerGlobals
     - PlayMakerLateUpdate
     - PlayMakerPrefs
     - PlayMakerTriggerEnter
@@ -33,7 +33,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/5ff610a7-92b6-4025-a1ab-9d20d2c2fd55.unity:
+    Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -80,8 +80,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11980}
     - Class: 114
       Script: {instanceID: 13090}
-    - Class: 114
-      Script: {instanceID: 13188}
     - Class: 114
       Script: {instanceID: 13192}
     - Class: 114
@@ -159,12 +157,6 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerFixedUpdate
-  - hash:
-      serializedVersion: 2
       Hash: 4002df09187c2b317d58e82d9e4795b2
     assemblyName: PlayMaker.dll
     namespaceName: 
@@ -207,5 +199,5 @@ ScriptsOnlyBuild:
     className: Slider
   platform: 13
   scenePathNames:
-  - Assets/Scenes/5ff610a7-92b6-4025-a1ab-9d20d2c2fd55.unity
-  playerPath: /Users/kanahorie/Documents/GitHub/enemy_control/AR_0817/_Output/STYLY_ASSET/Android/5ff610a7-92b6-4025-a1ab-9d20d2c2fd55
+  - Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity
+  playerPath: /Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/_Output/STYLY_ASSET/Android/18691112-dbc8-4130-befc-fcae143ad53b
