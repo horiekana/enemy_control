@@ -55,16 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
-     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ActionHelpers.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\AnimateColor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AnimateVariables\AnimateFloat.cs" />
@@ -1151,26 +1141,13 @@
      <None Include="Assets\STYLY_Plugin\STYLY_MaintenanceTool\Tools\ADB\OSX\NOTICE.txt" />
      <None Include="Assets\STYLY_Plugin\STYLY_Playmaker_CustomActions\3rdParty\Release\unity-audio-spectrum.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Ubershader.shader" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
-     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\CartoonFX Free.txt" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\PlayMaker\Actions\MathExpression\Mathos\MathosLicense.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
      <None Include="Assets\STYLY_Plugin\STYLY_MaintenanceTool\Tools\ADB\Windows\NOTICE.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
-     <None Include="Assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Procedural Ring.shader" />
      <None Include="Assets\STYLY_Plugin\ThirdParty\azcopy\ThirdPartyNotice.txt" />
      <None Include="Assets\PlayMaker\Actions\Tween\EasingFunctionLicense.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
      <None Include="Assets\PlayMaker\Actions\Tween\Readme.txt" />
-     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Distortion.shader" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.29f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -1791,14 +1768,6 @@
     <ProjectReference Include="IFeatureComponents.csproj">
       <Project>{B2505C23-A7A5-B5D4-A9B9-F7FDB7A7E214}</Project>
       <Name>IFeatureComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{432757C8-C344-406C-0CFC-37FFF549EFBD}</Project>
-      <Name>CFXRRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{BEDC0713-2261-FF94-326D-51F7D95090BC}</Project>
-      <Name>CFXREditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

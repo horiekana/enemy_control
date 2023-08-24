@@ -67,3 +67,4 @@ MonoBehaviour:
   - send_startTIme
   - GetPanching
   - delete_boss
+  - destroy_effect

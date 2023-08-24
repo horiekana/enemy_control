@@ -907,14 +907,6 @@
       <Project>{B2505C23-A7A5-B5D4-A9B9-F7FDB7A7E214}</Project>
       <Name>IFeatureComponents</Name>
     </ProjectReference>
-    <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{432757C8-C344-406C-0CFC-37FFF549EFBD}</Project>
-      <Name>CFXRRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="CFXREditor.csproj">
-      <Project>{BEDC0713-2261-FF94-326D-51F7D95090BC}</Project>
-      <Name>CFXREditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
