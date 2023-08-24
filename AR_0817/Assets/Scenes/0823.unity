@@ -1549,7 +1549,7 @@ PrefabInstance:
     - target: {fileID: 7963602791798065741, guid: adb864c3de1a4402d99432d00ace5e3a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7963602791798065741, guid: adb864c3de1a4402d99432d00ace5e3a,
         type: 3}
@@ -6436,13 +6436,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ' ramdomX'
           tooltip: 
@@ -6454,13 +6454,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -6596,13 +6596,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ' ramdomX'
           tooltip: 
@@ -6614,13 +6614,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -7954,9 +7954,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: random_spawn
-    startState: "\u5341\u79D2\u307E\u3064"
+    startState: "15\u79D2\u307E\u3064"
     states:
-    - name: "\u5341\u79D2\u307E\u3064"
+    - name: "15\u79D2\u307E\u3064"
       description: 
       colorIndex: 0
       position:
@@ -8007,7 +8007,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 15
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -8138,7 +8138,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u5341\u79D2\u307E\u3064"
+        toState: "15\u79D2\u307E\u3064"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -8358,13 +8358,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ' ramdomX'
           tooltip: 
@@ -8376,13 +8376,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -8541,9 +8541,9 @@ MonoBehaviour:
         - {fileID: 5016075190191400571, guid: 860a3eef92e18468d9fdeddd5243ed83, type: 3}
         - {fileID: 5016075190191400571, guid: 860a3eef92e18468d9fdeddd5243ed83, type: 3}
         - {fileID: 5016075190191400571, guid: 860a3eef92e18468d9fdeddd5243ed83, type: 3}
+        - {fileID: 5016075190191400571, guid: 860a3eef92e18468d9fdeddd5243ed83, type: 3}
         - {fileID: 2905131645743357968, guid: 3aad803841ac242fe8f7f82b0a90b4c9, type: 3}
         - {fileID: 2905131645743357968, guid: 3aad803841ac242fe8f7f82b0a90b4c9, type: 3}
-        - {fileID: 4636104107250300252, guid: 5dbd7c364745b42bf810f020c7c93980, type: 3}
       enumVariables: []
       categories:
       - 
@@ -15501,7 +15501,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925915136
 GameObject:
@@ -16182,7 +16182,7 @@ PrefabInstance:
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
@@ -16473,7 +16473,7 @@ PrefabInstance:
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
@@ -17965,7 +17965,7 @@ PrefabInstance:
     - target: {fileID: 3362718491749940871, guid: 9db765306c6f144c4b15aa466e09d71a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3362718491749940871, guid: 9db765306c6f144c4b15aa466e09d71a,
         type: 3}
@@ -21051,7 +21051,7 @@ PrefabInstance:
     - target: {fileID: 7963602791798065741, guid: adb864c3de1a4402d99432d00ace5e3a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7963602791798065741, guid: adb864c3de1a4402d99432d00ace5e3a,
         type: 3}
@@ -22397,7 +22397,7 @@ PrefabInstance:
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
@@ -26849,13 +26849,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomX
           tooltip: 
@@ -26867,13 +26867,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomZ
           tooltip: 
@@ -27059,13 +27059,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomX
           tooltip: 
@@ -27077,13 +27077,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomZ
           tooltip: 
@@ -27258,13 +27258,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomX
           tooltip: 
@@ -27276,13 +27276,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -6
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6
+          value: 5
         - useVariable: 1
           name: randomZ
           tooltip: 
@@ -30839,7 +30839,7 @@ PrefabInstance:
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2699348488796812080, guid: 8e73077f162b64f60be4beea646d9324,
         type: 3}

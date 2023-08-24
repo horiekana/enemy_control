@@ -1601,13 +1601,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ' ramdomX'
           tooltip: 
@@ -1619,13 +1619,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -1643,7 +1643,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.1
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -2333,13 +2333,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ' ramdomX'
           tooltip: 
@@ -2351,13 +2351,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -10
+          value: -5
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 5
         - useVariable: 1
           name: ramdomZ
           tooltip: 
@@ -2375,7 +2375,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.1
         - useVariable: 1
           name: ramdomZ
           tooltip: 
