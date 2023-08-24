@@ -15220,8 +15220,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 268
-        y: 136
+        x: 222
+        y: 99
         width: 138
         height: 16
       isBreakpoint: 0
