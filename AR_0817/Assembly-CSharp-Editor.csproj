@@ -907,6 +907,30 @@
       <Project>{B2505C23-A7A5-B5D4-A9B9-F7FDB7A7E214}</Project>
       <Name>IFeatureComponents</Name>
     </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{432757C8-C344-406C-0CFC-37FFF549EFBD}</Project>
+      <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{BEDC0713-2261-FF94-326D-51F7D95090BC}</Project>
+      <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{625DCD38-72D9-FA1A-7FDF-840EF5CBBDEB}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{CEFCBA0C-9D69-6751-31DD-AB7E4906A2BD}</Project>
+      <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{176F7A65-A83E-3283-0273-D83ADDEA2C91}</Project>
+      <Name>KinoBloom.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
+      <Project>{86105956-5533-FB97-BCBD-DB9EE884114E}</Project>
+      <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
