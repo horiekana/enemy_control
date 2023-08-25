@@ -2,8 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
     - HutongGames.PlayMakerEditor.EditorStartupPrefs
-    - HutongGames.PlayMakerEditor.FsmActionWindow
-    - HutongGames.PlayMakerEditor.FsmEditorWindow
     PlayMaker.dll:
     - PlayMakerFSM
     - PlayMakerGUI
@@ -17,8 +15,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -33,7 +33,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity:
+    Assets/Scenes/ccef0672-e768-49a0-8481-1f20e98bb2a0.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -59,6 +59,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -199,5 +203,5 @@ ScriptsOnlyBuild:
     className: Slider
   platform: 9
   scenePathNames:
-  - Assets/Scenes/18691112-dbc8-4130-befc-fcae143ad53b.unity
-  playerPath: /Users/takeiakari/GitHub/ARHakkason_ver3/0824/0824/_Output/STYLY_ASSET/iOS/18691112-dbc8-4130-befc-fcae143ad53b
+  - Assets/Scenes/ccef0672-e768-49a0-8481-1f20e98bb2a0.unity
+  playerPath: /Users/kanahorie/Documents/GitHub/enemy_control/AR_0817/_Output/STYLY_ASSET/iOS/ccef0672-e768-49a0-8481-1f20e98bb2a0
